@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+    background-color: #000 !important;
+    color: #FA4616;
+    font-family: 'Poppins', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #FA4616;
+    font-family: 'Poppins', sans-serif;
+  }
+  section, nav, footer, .card {
+    background-color: #000 !important;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+  .btn-secondary {
+    @apply bg-transparent border border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+  .card {
+    background-color: #000 !important;
+    color: #FA4616;
+    @apply rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-6;
+    font-family: 'Poppins', sans-serif;
+  }
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
+  }
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+} 
