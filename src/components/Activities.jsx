@@ -5,7 +5,7 @@ const activities = [
     desc: "ได้ผ่านรับการคัดเลือกเป็นหนึ่งใน 30 ทีม จาก 105 ทีมทั่วประเทศ",
   },
   {
-    image: "/c-python-competition.jpg",
+    image: "https://res.cloudinary.com/dke9vufkq/image/upload/v1764229401/IMG_0973_fwsxh6.jpg",
     title: "เข้าร่วมการเเข่งขัน C/Python ",
     desc: "ได่รับรางวัลรองชนะเลิศอันดับ 2",
   },
